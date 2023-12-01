@@ -159,9 +159,10 @@ def dashboard_admin(admin_id):
 
 #Fungsi utama
 def main():
-
     st.set_page_config(
         page_title="WheeslTera App")
+
+    st.title("WheelsTera")
  
     create_users_table()
     create_admins_table()
